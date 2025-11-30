@@ -348,8 +348,8 @@ def detect_label(path):
 
 def main():
     # Configuration
-    RAW_DATASET = "/Users/jeissonparra/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Capstone/Datasets/Original"
-    OUTPUT_DATASET = "/Users/jeissonparra/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Capstone/Datasets/CT_enhanced"
+    RAW_DATASET = "/Users/jeissonparra/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Special_Topics_Advanced_Computational_Methods_in_Health_and_Biomedical_Data/Class_project_Early_detection_of_brain_tumor/CT"
+    OUTPUT_DATASET = "/Users/jeissonparra/Library/CloudStorage/OneDrive-FloridaInternationalUniversity/Special_Topics_Advanced_Computational_Methods_in_Health_and_Biomedical_Data/Class_project_Early_detection_of_brain_tumor/CT_enhanced"
     
     # Initialize preprocessor
     preprocessor = MedicalImagePreprocessor(target_size=(224, 224))
